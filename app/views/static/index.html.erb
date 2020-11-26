@@ -1,0 +1,8 @@
+<h1>Static#index</h1>
+<p>demo of how to hide and acces secrets in rails</p>
+<p>Rails.application.credentials :</p>
+<strong><%= Rails.application.credentials.stg %></strong>
+<strong><%= Rails.application.credentials.dev %></strong>
+
+<p>use</p>
+<p>EDITOR="code --wait" bundle exec rails credentials:edit</p>
